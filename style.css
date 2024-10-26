@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(27, 27, 27);
+    color: white;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.main {
+    position: absolute;
+    top: 60px;
+    height: auto;
+    width: 500px;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.top {
+    width: 434px;
+    height: 80px;
+    padding: 15px 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top1 {
+    font-family: "Oxanium", sans-serif;
+
+}
+
+.top2 {
+    font-style: italic;
+    font-weight: bold;
+
+}
+
+.top3 {
+    font-family: "Oxanium", sans-serif;
+    font-size: 14px;
+    padding-top: 2px;
+    color: rgb(4, 219, 4);
+    font-weight: bolder;
+
+}
+
+.top4 {
+    border: 2px solid white;
+    height: 45px;
+    width: 200px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.top5 {
+    right: 20px;
+    padding-top: 4px;
+    background: transparent;
+}
+
+.displays {
+    height: 100px;
+    border: 2px solid white;
+    border-radius: 5px;
+    position: relative;
+    background-color: rgb(67, 67, 67);
+}
+
+.display1 {
+    height: 50px;
+    font-size: 20px;
+    overflow: auto;
+    background-color: rgb(67, 67, 67);
+}
+
+.display2 {
+    height: 50px;
+    font-size: 30px;
+    position: absolute;
+    right: 10px;
+    overflow: hidden;
+    background-color: rgb(67, 67, 67);
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 10px;
+    padding-top: 40px;
+}
+
+.button {
+    height: 60px;
+    width: 55px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: gray;
+
+}
+
+@media screen and (max-width : 1200px) {
+    .top1 {
+        font-size: 30px;
+    }
+
+    .top2 {
+        font-size: 15px;
+    }
+
+    .top3 {
+        font-size: 13px;
+    }
+
+    .top4 {
+        font-size: 20px;
+        position: absolute;
+        right: 20px;
+    }
+
+    .top5 {
+        position: absolute;
+        top: 75px;
+        right: 20px;
+        padding-top: 4px;
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .main {
+        top: 70px;
+        width: 700px;
+    }
+
+    .top {
+        width: 667px;
+        height: 100px;
+    }
+
+    .top_left {
+        width: 180px;
+    }
+
+    .top1 {
+        font-size: 40px;
+    }
+
+    .top2 {
+        font-size: 13px;
+    }
+
+    .top3 {
+        font-size: 12px;
+    }
+
+    .top4 {
+        width: 420px;
+        height: 70px;
+        font-size: 20px;
+        right: 5px;
+    }
+
+    .top5 {
+        top: 100px;
+        font-size: 10px;
+    }
+
+    .displays {
+        height: 100px;
+    }
+
+    .display1 {
+        height: 40px;
+    }
+
+    .display2 {
+        height: 60px;
+    }
+
+    .button {
+        height: 70px;
+        width: 70px;
+        border: 2px solid white;
+        border-radius: 10px;
+    }
+}
+
+@media screen and (max-width: 800px)
+{
+    .main {
+        width: 600px;
+    }
+
+    .top {
+        width: 94.5%;
+    }
+
+    .top4 {
+        width: 50%;
+        height: 70px;
+        font-size: 20px;
+        right: 5px;
+    }
+}
+
+@media screen and (max-width: 665px)
+{
+    .main {
+        width: 500px;
+    }
+
+}
+
+@media screen and (max-width: 555px)
+{
+    .main {
+        width: 400px;
+    }
+
+    .top
+    {
+        width: 92%;
+    }
+}
+
+@media screen and (max-width: 440px)
+{
+    body
+    {
+        display: block;
+    }
+
+    .main
+    {
+        margin-left: 20px;
+        margin-right: 20px;
+        width: auto;
+    }
+
+    .top
+    {
+        height: 90px;
+        width: auto;
+    }
+
+    .top_left {
+        width: 150px;
+    }
+
+    .top1 {
+        font-size: 35px;
+    }
+
+    .top2 {
+        font-size: 10px;
+    }
+
+    .top3 {
+        font-size: 9px;
+    }
+
+    .top4 {
+        width: 50%;
+        height: 60px;
+        font-size: 13px;
+        right: 5px;
+    }
+
+    .top5 {
+        top: 90px;
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 400px)
+{
+    .button
+    {
+        width: 55px;
+        height: 55px;
+    }
+}
